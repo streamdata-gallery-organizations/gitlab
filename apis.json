@@ -1,0 +1,33 @@
+{
+	"name": "Streadata.io API Gallery - GitLab",
+	"description": "This is a repository of gitlab APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/gitlab.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-30",
+	"url": "http://gitlab.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "GitLab",
+			"x-api-slug": "gitlab",
+			"description": "GitLab is a web-based Git-repository manager with wiki, issue-tracking and CI/CD pipelines features, using an open-source license, developed by GitLab Inc.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/githlab-logo.png",
+			"humanURL": "http://gitlab.com",
+			"baseURL": "https://localhost:3000//api",
+			"tags": "GitLab",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/gitlab/master/_listings/gitlab/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "GitLab",
+	"include": [
+		{
+			"name": "GitLab",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-organizations/gitlab/master/_listings/gitlab/apis.yaml"
+		}
+	]
+}
